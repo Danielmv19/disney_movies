@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "disney"  # Update this to change the name of your app
+version = "0.1.0"
+authors = []  # Update to include your email
+readme = "README.md"
+description = "Template for a FastAPI + Uvicorn based webserver project"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.0"
+uvicorn = "^0.23.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
